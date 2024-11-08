@@ -131,7 +131,7 @@
         entier. Il faut aller sur la page ou le passage qui nous intéresse, donner un nom à l'ancre grâce à lattribut "id" Ensuite on retourne
         sur la page sur laquelle le lien doit figurer et on indique la formule suivante:   
         -->
-        <a href="#mon_ancre">Lien vers mon ancre jaune ;) </a>
+        <a href="#mon_ancre">Lien vers mon ancre jaune ! </a>
 
     <h3>b- Si le lien se situe sur une autre page : </h3>
         <!--
@@ -139,15 +139,35 @@
         le lieu qui a été "ancré" ou marqué il faut indiquer le nom de la page suivi du # et nom de l'ancre comme ce qui suit :
         -->
         <a href="../AutreBrouillonHyperlien.html#mon_ancre_2"> Lien vers mon ancre 2 qui est aussi jaune !</a>
-
     
-    </body>  
+    <h2><strong><em>5- Il est possible de configurer un lien pour qu'il ait un comportement un peu particulier :</em></strong></h2>
+        <br>
+        <h3>a- <strong>target="_blank"</strong>fait en sorte que le lien hypertexte ouvre un nouvel onglet :</h3>
+        <p>Bonjour. Souhaitez-vous apprendre sur <a href="https://openclassrooms.com" target="_blank">OpenClassrooms</a> ?</p>
+        <br>
+        <h3>b- <strong>href="mailito:NOMDUMAIL.COM </strong>crée un lien hypertexte qui ouvre la boite mail avec un nouveau message vide prêt à l'emploi : </h3>
+        <p>Vous pouvez me contacter en cliquant <a href="mailto:NOMDUMAIL@MAIL.COM">ici!!</a>.</p>
+         <br>
+            <!--
+            Créer un lien vers un nouveau mail en HTML se fait grâce à la balise <a> et l'attribut "href". En utilisant le protocole mailto:, 
+            on peux préremplir le destinataire et même personnaliser l'objet et le corps du message.
+            L'attribut "href" de cette balise indique l'URL (l'adresse internet) de la destination. 
+            Dans notre cas, comme on veut créer un lien vers un nouveau mail, on utilise un protocole spécifique : "mailto":.
+            C'est le protocole mailito qui indique que l'on veut créer un lien vers un nouveau message electronique.
+            -->
+            <p><strong>Voici une autre façon de faire là, il s'agit ici d'ajouter un objet --<mark>mais c'est à approfondire</mark>-- :</strong></p>
+            <p>ou encore <a href="mailto:NOMDUMAIL@MAIL.COM"?subject=Objet%20de%20l%20mon%20email>ici !</a>.</p>
+            <br>
+            <p><strong>Et si on veut ajouter un corps au message --<mark>là aussi c'est à approfondire</mark>-- :</strong></p>
+            <p>ou bien <a href="mailto:NOMDUMAIL@MAIL.COM"?body=Corps%20du%20message>là!</a>.</p>
+    </body> 
+     
     </html> 
 
  
 
 
-    </body>
+   
 </html> 
  
 
