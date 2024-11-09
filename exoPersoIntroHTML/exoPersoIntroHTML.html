@@ -160,6 +160,50 @@
             <br>
             <p><strong>Et si on veut ajouter un corps au message --<mark>là aussi c'est à approfondire</mark>-- :</strong></p>
             <p>ou bien <a href="mailto:NOMDUMAIL@MAIL.COM"?body=Corps%20du%20message>là!</a>.</p>
+            <br>
+
+            <h1>Comment insérer des images ?</h1>
+            <h2>Le fichier est situé dans le dossier appelé : "imagesExoPersoIntroHTML.</p>
+            <br>
+            <p>Pour insérer l'image il suffit d'utiliser le <strong><mark>"glissé/déposé</mark></strong></h2>
+            <p>Ensuite, on peut coder, entre deux balises de paragraphes, on ajoute celle qui correspond à l'image :</p>
+            <!--
+            Il s'agit de la balise : <img /> qui est une balise auto-fermante(ou balise orpheline), contrairement aux 
+            balises en paires. elle n'a donc pas besoin d'une balise fermanre pour indiquer à l'opérateur la fin de 
+            l'élèment sur la page. Pour que ça fonctionne correctement il faut quand même lui ajouter quelques attributs.
+            il faut informer la source de l'image ou l'endroit où l'image est stockée. Cela fonctionne comme pour un lien relatif.
+            Ce qui donne : <img src="imagesExoPersoIntroHTML/DevTaffe2.jpg".
+            Ainsi on indique l'image du ficher. On peut aussi indiquer l'URL si l'image se situe sur un autre site web.
+            Enfin on ajoute l'attribut "alt" afin de décrire l'image avec un petit texte ou commentaire
+            alternatif.
+            -->
+            <br>
+            <p>
+                <img src="imagesExoPersoIntroHTML/DevTaffe2.jpg" alt="Une personne travaille sur son ordinateur personnel."/>
+                <!--
+                Le texte alternatif s'affiche si l'image ne peut pas être téléchargée correctement par le navigateur. 
+                Le texte alternatif permet aussi aux personnes mal voyantes de naviguer et de savoir ce que représente la photo.
+                ENFIN le texte alternatif quand il est bien rédigé va être utilisé par les moteurs de recherche pour le référencement.
+                -->
+            </p>
+
+            <h2>D'autres attributs qui peuvent être associés aux images: </h2>
+            <br>
+            <h3>L'infobulle : Le texte qui apparait sur l'image quand on la survole</h3>
+            <p><strong>Il suffit d'ajouter à la ligne de code l'atribut <mark>title</mark> suivi de la ligne de texte que l'on souhaite ajouter.</strong></p>
+            
+            <p>Et pour rendre l'image <mark>cliquable</mark>, ce qui est utile quand la photo d'origine est trop lourde et qu'on veut d'abord presenter sa version miniature.</p>
+            <p>Avant ça il faut deux images dans le dossier une version miniature et une originale. </p>
+            <p>puis on insère la ligne de code qui correspond à l'image dans une balise "a" suivie de l'attribut href pour y placer le lien vers l'image originale.</p>
+            <p>
+                <a href="imagesExoPersoIntroHTML/">
+
+                    <img src="imagesExoPersoIntroHTML/baladeArcEnCiel.jpg" alt="gay pride en Asie. Joie et bonne humeur." title="Rien de tel qu'une balade entres amis après le boulot !"/>
+
+                </a>
+                
+
+            </p>
     </body> 
      
     </html> 
