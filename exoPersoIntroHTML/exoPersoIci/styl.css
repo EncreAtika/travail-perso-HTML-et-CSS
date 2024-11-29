@@ -1,0 +1,32 @@
+/* Ici les paragraphes et titre de niveau h1 on la même couleur.*/
+p,h1 
+{
+    color: rgb(29, 80, 219);
+}
+
+/* formule html : <p class="ma_classe"> blia bla bla </p> --> permet de colorer un paragraphe en particulier*/
+/*On peut aussi utiliser l'attribut <id> mais pour le moment ce sera l'attribut <class>*/
+.ma_classe {
+    color: rgb(58, 4, 58);
+
+/*Les attributs class et id fonctionnent selon la même méthode mais on ne les utilise pas pour les mêmes raisons
+--> pour appliquer un style à un seul élément parmi d'autres, on utilise un attribut class.
+
+-->pour appliquer un style à un élément unique en son genre, on utilise un attribut id. 
+En CSS, on peut appliquer du style à un élément (ou plus) avec l'attribut class. 
+Par contre id ne peut s'utiliser que pour un seul élément, pas plus. ainsi, 
+L'attribut id fonctionne selon la même méthode que class, mais il y a une différence de taille : 
+id ne peut être utilisé qu'une fois dans le code.
+
+En CSS, il n'y en a pas vraiment ; cela est utile surtout pour du JavaScript plus tard, 
+pour reconnaître certaines balises.
+En HTML, il y en a l'utilité avec le liens hypertextes pour créer des ancres.
+En pratique donc, on n'utilisera en CSS un id que sur un élément qui est unique 
+dans la page, comme le logo par exemple.*/
+
+}
+
+/*formule html : <span class="ma_classe_2">INTEGER SED FELIS PLACERAT</span>*/
+.ma_classe_2{
+    color: rgb(14, 122, 14);
+}
